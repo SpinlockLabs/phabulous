@@ -2,7 +2,7 @@
 
 ![Example](http://i.imgur.com/Uv4nVJa.png)
 
-Phabulous is a Slack bot for Phabricator.
+Phabulous is a Slack bot for Phabricator. This is an enhanced version of that.
 
 > **Node.js version:** The Javascript version of this project has been replaced
 with a rewrite from scratch in Go. The code for the Javascript version is

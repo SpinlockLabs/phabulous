@@ -6,8 +6,8 @@ import (
 
 	"github.com/etcinit/gonduit/constants"
 	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
 )
 
 // TaskCommand lists your tasks

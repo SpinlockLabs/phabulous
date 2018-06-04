@@ -2,10 +2,10 @@ package modules
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/modules/core"
-	"github.com/etcinit/phabulous/app/modules/dev"
-	"github.com/etcinit/phabulous/app/modules/extension"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/modules/core"
+	"github.com/SpinlockLabs/phabulous/app/modules/dev"
+	"github.com/SpinlockLabs/phabulous/app/modules/extension"
 	"github.com/jacobstr/confer"
 )
 

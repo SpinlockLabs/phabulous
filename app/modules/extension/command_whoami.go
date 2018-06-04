@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	gonduitRequests "github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/phabulous/app/gonduit/extensions"
-	"github.com/etcinit/phabulous/app/gonduit/extensions/requests"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/gonduit/extensions"
+	"github.com/SpinlockLabs/phabulous/app/gonduit/extensions/requests"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
 )
 
 // WhoamiCommand allows one to send test messages to the feed channel.

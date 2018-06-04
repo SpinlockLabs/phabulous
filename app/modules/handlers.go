@@ -3,7 +3,7 @@ package modules
 import (
 	"regexp"
 
-	"github.com/etcinit/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
 )
 
 const (

@@ -1,7 +1,7 @@
 package extension
 
 import (
-	"github.com/etcinit/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
 	"github.com/jacobstr/confer"
 )
 

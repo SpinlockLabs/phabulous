@@ -8,12 +8,12 @@ import (
 	"github.com/etcinit/gonduit"
 	"github.com/etcinit/gonduit/entities"
 	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/phabulous/app/gonduit/extensions"
-	phabulousRequests "github.com/etcinit/phabulous/app/gonduit/extensions/requests"
-	"github.com/etcinit/phabulous/app/gonduit/extensions/responses"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
-	"github.com/etcinit/phabulous/app/utilities"
+	"github.com/SpinlockLabs/phabulous/app/gonduit/extensions"
+	phabulousRequests "github.com/SpinlockLabs/phabulous/app/gonduit/extensions/requests"
+	"github.com/SpinlockLabs/phabulous/app/gonduit/extensions/responses"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/utilities"
 	"github.com/nlopes/slack"
 )
 

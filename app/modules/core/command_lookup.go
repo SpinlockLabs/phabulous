@@ -2,9 +2,9 @@ package core
 
 import (
 	"fmt"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
-	"github.com/etcinit/phabulous/app/utilities"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/utilities"
 )
 
 // LookupCommand allows users to lookup objects from Phabricator.

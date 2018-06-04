@@ -8,7 +8,7 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/etcinit/phabulous/app"
+	"github.com/SpinlockLabs/phabulous/app"
 	"github.com/facebookgo/inject"
 	"github.com/jacobstr/confer"
 )
@@ -43,17 +43,17 @@ func main() {
 	}
 
 	// Setup the command line application
-	app := cli.NewApp()
-	app.Name = "phabulous"
-	app.Usage = "A Phabricator bot in Go"
+	application := cli.NewApp()
+	application.Name = "phabulous"
+	application.Usage = "A Phabricator bot in Go"
 
 	// Set version and authorship info
-	app.Version = VERSION
-	app.Author = "Eduardo Trujillo <ed@chromabits.com>"
+	application.Version = VERSION
+	application.Author = "Eduardo Trujillo <ed@chromabits.com>"
 
 	// Setup the default action. This action will be triggered when no
 	// subcommand is provided as an argument
-	app.Action = func(c *cli.Context) error {
+	application.Action = func(c *cli.Context) error {
 		fmt.Println(
 			"Usage: phabulous [global options] command [command options] " +
 				"[arguments...]",
@@ -61,14 +61,14 @@ func main() {
 		return nil
 	}
 
-	app.Flags = []cli.Flag{
+	application.Flags = []cli.Flag{
 		cli.StringFlag{
 			Name:  "config",
 			Usage: "Provide an alternative configuration file",
 		},
 	}
 
-	app.Commands = []cli.Command{
+	application.Commands = []cli.Command{
 		{
 			Name:    "serve",
 			Aliases: []string{"s", "server", "listen"},
@@ -78,5 +78,5 @@ func main() {
 	}
 
 	// Begin
-	app.Run(os.Args)
+	application.Run(os.Args)
 }

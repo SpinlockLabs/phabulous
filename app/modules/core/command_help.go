@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
 )
 
 // HelpCommand allows one to send test messages to the feed channel.

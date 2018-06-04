@@ -3,10 +3,10 @@ package controllers
 import (
 	"github.com/Sirupsen/logrus"
 	"github.com/etcinit/gonduit/constants"
-	"github.com/etcinit/phabulous/app/factories"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
-	"github.com/etcinit/phabulous/app/resolvers"
+	"github.com/SpinlockLabs/phabulous/app/factories"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/resolvers"
 	"github.com/gin-gonic/gin"
 	"github.com/jacobstr/confer"
 )

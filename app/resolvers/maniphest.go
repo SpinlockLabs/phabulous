@@ -2,7 +2,7 @@ package resolvers
 
 import (
 	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/phabulous/app/factories"
+	"github.com/SpinlockLabs/phabulous/app/factories"
 	"github.com/jacobstr/confer"
 )
 

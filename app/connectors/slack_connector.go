@@ -2,8 +2,8 @@ package connectors
 
 import (
 	"github.com/Sirupsen/logrus"
-	"github.com/etcinit/phabulous/app/factories"
-	"github.com/etcinit/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/factories"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
 	"github.com/jacobstr/confer"
 	"github.com/nlopes/slack"
 )

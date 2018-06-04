@@ -1,8 +1,8 @@
 package connectors
 
 import (
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/utilities"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/utilities"
 )
 
 // processMessage processes incoming messages events and calls the appropriate

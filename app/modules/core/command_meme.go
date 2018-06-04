@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/etcinit/gonduit/requests"
-	"github.com/etcinit/phabulous/app/interfaces"
-	"github.com/etcinit/phabulous/app/messages"
+	"github.com/SpinlockLabs/phabulous/app/interfaces"
+	"github.com/SpinlockLabs/phabulous/app/messages"
 )
 
 // MemeCommand allows users to create memes.
